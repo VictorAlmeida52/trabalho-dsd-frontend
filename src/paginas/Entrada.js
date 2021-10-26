@@ -10,7 +10,9 @@ function Entrada() {
                 </div>
                 <h1 className="slogan">COMER MUDA TUDO</h1>
 
-                <Link to="/restaurantes" className="botao"> Verificar </Link>
+                <Link to="/restaurantes" className="botao"> 
+                    Verificar 
+                </Link>
             </div>
         </div>
     )
