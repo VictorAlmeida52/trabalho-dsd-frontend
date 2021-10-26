@@ -1,25 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="pagina-principal">
+      <div className="conteudo">
+        <div className="preco">
+          Pratos a partir de R$159,90
+        </div>
+        <h1 className="slogan">COMER MUDA TUDO</h1>
+
+        <a className="botao"> Verificar </a>
+      </div>
     </div>
-  );
+
 }
 
 export default App;
