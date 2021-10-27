@@ -7,7 +7,7 @@ function Padrao() {
         api.get('restaurantes/retornaTodos').then(resposta => {
             setRestaurantes(resposta.data)
         })
-    })
+    }, [])
 
     return (
         <div className="row">
