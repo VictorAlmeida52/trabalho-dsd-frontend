@@ -6,11 +6,11 @@ function Entrada() {
         <div className="pagina-principal">
             <div className="conteudo">
                 <div className="preco">
-                    Pratos a partir de R$159,90
+                    Serviços a partir de R$159,90
                 </div>
-                <h1 className="slogan">COMER MUDA TUDO</h1>
+                <h1 className="slogan">iServices</h1>
 
-                <Link to="/restaurantes" className="botao"> 
+                <Link to="/prestadores" className="botao"> 
                     Verificar 
                 </Link>
             </div>
